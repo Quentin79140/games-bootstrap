@@ -1,0 +1,70 @@
+/* DOCUMENT INFORMATION
+    -document: games-bootstrap
+    -version:2.0
+    -autor:quentin  */
+
+/* COLOR
+    -defaut body text 
+    -h1         
+    -h2         
+    -h3
+    -button
+    -button:hover
+    
+    .icon       
+    
+    -border */
+
+/* FONTS 
+    -default 
+    -subtitle
+*/
+/* CSS DIRECTORY 
+    1.=global
+    2.=header
+    3.=produits
+
+/* GLOBAL
+##################### */
+
+html
+{
+
+}
+h1
+{
+
+}
+h2
+{
+
+}
+p
+{
+
+}
+section 
+{
+
+}
+
+/* HEADER 
+################# */
+ 
+header
+{
+    background-image: url(/images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
