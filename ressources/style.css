@@ -27,26 +27,14 @@
 /* GLOBAL
 ##################### */
 
-html
-{
 
-}
-h1
-{
 
-}
-h2
-{
 
-}
-p
-{
 
-}
-section 
-{
 
-}
+
+
+
 
 /* HEADER 
 ################# */
@@ -57,14 +45,77 @@ header
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+.home
+{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+.home h1
+{
+    font-size: 400%;
+    color:#241d1d;
 
 }
+.home p
+{
+    color: #241d1d;
+}
 
+/* BUTTON
+#######################" */
 
+.btn
+{
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 1.4s, color 1.4s;
+}
+.btn-1
+{
+    background-color: #239b23;
+    color: #181414;
+}
+.btn-2
+{
+    background-color:#cf1212;
+    color:#181414;
+}
+.btn-3
+{
+    background-color: #4343ac;
+    color: #181414;
 
-
-
-
+}
+.btn-4
+{
+    background-color: #d37484;
+    color: #181414;
+}
+.btn-1:hover
+{
+    background-color: #17eb17;
+    color: white;
+    
+}
+.btn-2:hover
+{
+    background-color: #f73939;
+    color: white;
+}
+.btn-3:hover
+{
+    background-color: #0a0a6d;
+    color:white;
+}
+.btn-4:hover
+{
+    background-color: rgb(202, 42, 69);
+    color: white;
+}
 
 
 
