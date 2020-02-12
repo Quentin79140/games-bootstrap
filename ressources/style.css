@@ -117,5 +117,32 @@ header
     color: white;
 }
 
+/* DESIGN MANETTE 
+########################"*/
+
+.manette
+{
+    background-color: #239b23;
+}
+section h2
+{
+   text-align: center;
+   margin-top: 20px;
+   padding-top: 20px;
+   color: white;
+   
+}
+.controller
+{
+    padding-top: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.993);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+
 
 
