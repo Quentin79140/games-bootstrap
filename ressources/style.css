@@ -26,8 +26,22 @@
 
 /* GLOBAL
 ##################### */
-
-
+html
+{
+    height: 100vh;
+    width: 100%;
+}
+h1,h2,h3
+{
+    text-transform: uppercase;
+    font-family: "bangers";
+    text-align: center;
+}
+p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
 
 
 
@@ -41,7 +55,7 @@
  
 header
 {
-    background-image: url(/games-bootstrap/images/header.jpg);
+    background-image: url(/images/header.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -51,16 +65,26 @@ header
     position: absolute;
     top: 45%;
     left: 15%;
+  
+
 }
 .home h1
 {
     font-size: 400%;
     color:#241d1d;
+    text-align: left;
+    text-decoration: underline;
+    color: #fc922f;
 
 }
 .home p
 {
     color: #241d1d;
+}
+.navbar-brand
+{
+    font-family: "bangers";
+    
 }
 
 /* BUTTON
@@ -76,8 +100,9 @@ header
 }
 .btn-1
 {
-    background-color: #239b23;
+    
     color: #181414;
+    background-color: #14a114;
 }
 .btn-2
 {
@@ -86,7 +111,7 @@ header
 }
 .btn-3
 {
-    background-color: #4343ac;
+    background-color: #3f3fda;
     color: #181414;
 
 }
@@ -120,29 +145,126 @@ header
 /* DESIGN MANETTE 
 ########################"*/
 
-.manette
+.title
 {
-    background-color: #239b23;
+    margin: 50px 50px;
 }
-section h2
+#manette h2
 {
    text-align: center;
-   margin-top: 20px;
-   padding-top: 20px;
-   color: white;
-   
+    font-size: 250%;
+   color:black;
+   text-decoration: underline green;  
+   padding: 30px 0px;
 }
+
 .controller
 {
-    padding-top: 20px 0px;
+    /* padding-top: 20px 0px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(3, 3, 3, 0.993);
+    box-shadow: 0 0 10px #226603fd; */
     text-align: center;
     width: 100%;
-    color: white;
+    height: 50%;
+    color: black;
+}
+.arrow
+{
+    text-align: center;
+    margin: 150px 10px 0 10px;
+    font-size: 25px;
+    color: #226603fd;
+}
+.controller img
+{
+    padding: 50px;
+}
+.controller1 img
+{
+    padding: 0px;
 }
 
 
+/* DESIGN CONSOLE */
+
+#console
+{
+    background-image: url(/images/playstation.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-top: 50px;
+}
+#console h2
+{
+    text-decoration: underline red ;
+    font-size: 250%;
+    padding: 50px;
+}
+.console1 img
+{
+    display: block;
+    
+    margin-bottom: 50px;
+}
+.arrow-console
+{
+    text-align: center;
+    margin: 150px 10px 0 10px;
+    font-size: 25px;
+    color: white;
+
+}
+
+/* GALERIE */
+
+.container
+{
+   width: 100%;
+
+}
+#carousel h2
+{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: underline #3f3fda;
+}
+.carousel-cover
+{
+    margin-bottom: 20px;
+}
 
 
+/* CONTACT */
 
+.contact
+{
+    text-decoration: underline rgb(219, 111, 129);
+    col
+}
+.contact-form
+{
+    margin-bottom: 30px;
+
+}
+.contact-message
+{
+    width: 100%;
+}
+.btn-contact
+{
+    background-color: blue;
+    color:white;
+    
+    margin-right: 15px;
+}
+
+
+footer
+{
+    background-color: rgb(221, 168, 22);
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
