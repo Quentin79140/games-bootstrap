@@ -55,7 +55,7 @@ p
  
 header
 {
-    background-image: url(/images/header.jpg);
+    background-image: url(/games-bootstrap/images/header.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -189,7 +189,7 @@ header
 
 #console
 {
-    background-image: url(/images/playstation.png);
+    background-image: url(/games-bootstrap/images/playstation.png);
     background-size: cover;
     background-attachment: fixed;
     
